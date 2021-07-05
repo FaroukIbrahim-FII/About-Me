@@ -8,4 +8,4 @@ I build a webpage to talk more about me and ask the user. It is a nice and simpl
 
 Links and Resources
 
-* Live URL: 1[URL](https://faroukibrahim-fii.github.io/About-Me/)
+* Live URL: [URL](https://faroukibrahim-fii.github.io/About-Me/)
