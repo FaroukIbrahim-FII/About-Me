@@ -32,7 +32,7 @@ if (MyFavGam === 'no' || MyFavGam === 'n') {
     alert('That\'s wrong');
 }
 
-let FavCar = prompt('Is BMW my fav?');
+let FavCar = prompt('Is BMW my fav? Y/N');
 
 FavCar = FavCar.toLowerCase();
 
@@ -44,7 +44,7 @@ if (FavCar === 'no' || FavCar === 'n') {
     alert('That\'s wrong');
 }
 
-let YearBorn = prompt('Am I born in 1994?');
+let YearBorn = prompt('Am I born in 1994? Y/N');
 
 YearBorn = YearBorn.toLowerCase();
 
@@ -56,7 +56,7 @@ if (YearBorn === 'yes' || YearBorn === 'y') {
     alert('That\'s wrong');
 }
 
-let Exp = prompt('Have I worked as a civil Engineer for 7 years?');
+let Exp = prompt('Have I worked as a civil Engineer for 7 years? Y/N');
 
 Exp = Exp.toLowerCase();
 
