@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: blueviolet; color: chartreuse;
+}
+
+p{
+    color: darkblue; margin: 5pt;
+}
+
+#name{
+    color: darkcyan; font-size: 20pt;
+}
