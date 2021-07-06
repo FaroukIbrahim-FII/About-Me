@@ -4,6 +4,10 @@
 
 I build a webpage to talk more about me and ask the user. It is a nice and simple page.
 
+### Links and Resources
+
+* Rihan Foudeh helped me with teaching me "Try: for" and "break Try"
+
 ### Author: Farouk Imad Ibrahim
 
 Links and Resources
