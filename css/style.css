@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    background-color: blueviolet; color: chartreuse;
+    background-color: rgb(184, 186, 187); color: rgb(55, 0, 255);
 }
 
 p{
@@ -9,4 +9,29 @@ p{
 
 #name{
     color: darkcyan; font-size: 20pt;
+}
+
+ol {
+    margin-top: 15pt;
+    margin-left: 40pt;
+    color: darkgreen;
+    list-style: upper-roman;
+  }
+
+ul{
+    margin-top: 15pt;
+    margin-left: 40pt;
+    color: rgb(28, 120, 148);
+    list-style: square;
+}
+
+li{
+    margin-top: 15pt;
+}
+
+li.subUN{
+    margin-top: 10pt;
+    margin-left: 30pt;
+    color: rgb(28, 148, 48);
+    list-style: circle;
 }
