@@ -1,4 +1,6 @@
 'use strict';
+let totScore = 0;
+
 
 let UserName = prompt('What is your name?');
 
@@ -11,7 +13,6 @@ function Q1() {
 
     MyDegree = MyDegree.toLowerCase();
 
-    let totScore = 0;
     if (MyDegree === 'yes' || MyDegree === 'y') {
         // console.log('That\'s correct');
         alert('That\'s correct');
@@ -64,7 +65,7 @@ function Q3(){
 }
 Q3();
 
-
+function Q4(){
     let YearBorn = prompt('Am I born in 1994? Y/N');
 
     YearBorn = YearBorn.toLowerCase();
@@ -79,6 +80,9 @@ Q3();
     } else {
         alert('Please answer using yes/no or y/n only.');
     }
+}
+// eslint-disable-next-line new-cap
+Q4();
 
 
 let Exp = prompt('Have I worked as a civil Engineer for 7 years? Y/N');
@@ -89,7 +93,7 @@ if (Exp === 'no' || Exp === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else if (MyDegree === 'yes' || MyDegree === 'y') {
+} else if (Exp === 'yes' || Exp === 'y') {
     // console.log('That\'s wrong');
     alert('That\'s wrong');
 } else {
