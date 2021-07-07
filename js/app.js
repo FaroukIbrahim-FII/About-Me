@@ -112,28 +112,28 @@ As a user, I would like to be guided to an answer through a series of feedback r
 */
 function Q6(){
 
-for (let i = 0; i < 4; i++) {
-    let num = prompt('Okay, guess a number between 0 and 20');
-    if (num == 15) {
-        alert('Good job you have guessed it');
-        // console.log('Good job you have guessed it');
-        totScore++;
-        break;
-    } else if (num < 15) {
-        alert('that is too low');
+    for (let i = 0; i < 4; i++) {
+        let num = prompt('Okay, guess a number between 0 and 20');
+        if (num == 15) {
+            alert('Good job you have guessed it');
+            // console.log('Good job you have guessed it');
+            totScore++;
+            break;
+        } else if (num < 15) {
+            alert('that is too low');
         // console.log('that is too low');
-    } else if (num > 15) {
-        alert('That is too high');
+        } else if (num > 15) {
+            alert('That is too high');
         // console.log('That is too high');
-    } else {
-        alert('please type a number between 0 and 20');
+        } else {
+            alert('please type a number between 0 and 20');
         // console.log('please type a number between 0 and 20');
-    }
+        }
 
-    if (i == 3) {
-        alert('The correct number was 15');
+        if (i == 3) {
+            alert('The correct number was 15');
+        }
     }
-}
 }
 Q6();
 /* As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
@@ -144,23 +144,26 @@ Q6();
     * Display all the possible correct answers to the user.
     * Consider using a loop of some sort for this question.
 // */
-let GamArray = ['GTA V', 'Minecraft', 'Red Dead Redemption 2', 'The Legend of Zelda: Breath of the Wild', 'The Elder Scrolls V: Skyrim', 'The Last of Us', 'Portal 2', 'The Witcher 3: Wild Hunt'];
+function Q7(){
+    let GamArray = ['GTA V', 'Minecraft', 'Red Dead Redemption 2', 'The Legend of Zelda: Breath of the Wild', 'The Elder Scrolls V: Skyrim', 'The Last of Us', 'Portal 2', 'The Witcher 3: Wild Hunt'];
 
-Try: for (let i = 0; i < 6; i++) {
-    let guessGam = prompt('Try to guess one of my favorite Games');
-    for (let x = 0; x < GamArray.length; x++) {
-        if (guessGam == GamArray[x]) {
-            alert('Good job you have guessed it. Correct answers were: (GTA V, Minecraft, Red Dead Redemption 2, The Legend of Zelda: Breath of the Wild, The Elder Scrolls V: Skyrim, The Last of Us, Portal 2, The Witcher 3: Wild Hunt)');
-            // console.log(GamArray[x]);
-            totScore++;
-            break Try;
+    Try: for (let i = 0; i < 6; i++) {
+        let guessGam = prompt('Try to guess one of my favorite Games');
+        for (let x = 0; x < GamArray.length; x++) {
+            if (guessGam == GamArray[x]) {
+                alert('Good job you have guessed it. Correct answers were: (GTA V, Minecraft, Red Dead Redemption 2, The Legend of Zelda: Breath of the Wild, The Elder Scrolls V: Skyrim, The Last of Us, Portal 2, The Witcher 3: Wild Hunt)');
+                // console.log(GamArray[x]);
+                totScore++;
+                break Try;
+            }
+
         }
-
-    }
-    if (i == 5) {
-        alert('Correct answers were: (GTA V, Minecraft, Red Dead Redemption 2, The Legend of Zelda: Breath of the Wild, The Elder Scrolls V: Skyrim, The Last of Us, Portal 2, The Witcher 3: Wild Hunt)');
+        if (i == 5) {
+            alert('Correct answers were: (GTA V, Minecraft, Red Dead Redemption 2, The Legend of Zelda: Breath of the Wild, The Elder Scrolls V: Skyrim, The Last of Us, Portal 2, The Witcher 3: Wild Hunt)');
+        }
     }
 }
+Q7();
 
 // As a user, I would like to know my final score so that I can know how well I did.
 
