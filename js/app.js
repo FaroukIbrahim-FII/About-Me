@@ -84,21 +84,23 @@ function Q4(){
 // eslint-disable-next-line new-cap
 Q4();
 
+function Q5(){
+    let Exp = prompt('Have I worked as a civil Engineer for 7 years? Y/N');
 
-let Exp = prompt('Have I worked as a civil Engineer for 7 years? Y/N');
+    Exp = Exp.toLowerCase();
 
-Exp = Exp.toLowerCase();
-
-if (Exp === 'no' || Exp === 'n') {
+    if (Exp === 'no' || Exp === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
-    alert('That\'s correct');
-    totScore++;
-} else if (Exp === 'yes' || Exp === 'y') {
+        alert('That\'s correct');
+        totScore++;
+    } else if (Exp === 'yes' || Exp === 'y') {
     // console.log('That\'s wrong');
-    alert('That\'s wrong');
-} else {
-    alert('Please answer using yes/no or y/n only.');
+        alert('That\'s wrong');
+    } else {
+        alert('Please answer using yes/no or y/n only.');
+    }
 }
+Q5();
 
 /*
 As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
