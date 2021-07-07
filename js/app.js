@@ -6,37 +6,43 @@ alert('Welcome to my webpage ' + UserName);
 
 alert('Let us play a quick quize. Please answer using yes/no or y/n only.');
 
+function Q1() {
+    let MyDegree = prompt('I am a civil engineer, right? Y/N');
 
-let MyDegree = prompt('I am a civil engineer, right? Y/N');
+    MyDegree = MyDegree.toLowerCase();
 
-MyDegree = MyDegree.toLowerCase();
-
-let totScore = 0;
-if (MyDegree === 'yes' || MyDegree === 'y') {
-    // console.log('That\'s correct');
-    alert('That\'s correct');
-    totScore++;
-} else if (MyDegree === 'no' || MyDegree === 'n'){
-    // console.log('That\'s wrong');
-    alert('That\'s wrong');
-}else{
-    alert('Please answer using yes/no or y/n only.');
+    let totScore = 0;
+    if (MyDegree === 'yes' || MyDegree === 'y') {
+        // console.log('That\'s correct');
+        alert('That\'s correct');
+        totScore++;
+    } else if (MyDegree === 'no' || MyDegree === 'n') {
+        // console.log('That\'s wrong');
+        alert('That\'s wrong');
+    } else {
+        alert('Please answer using yes/no or y/n only.');
+    }
 }
+// eslint-disable-next-line new-cap
+Q1();
 
-let MyFavGam = prompt('Is my favorite game Minecraft? Y/N');
+    let MyFavGam = prompt('Is my favorite game Minecraft? Y/N');
 
-MyFavGam = MyFavGam.toLowerCase();
+    MyFavGam = MyFavGam.toLowerCase();
 
-if (MyFavGam === 'no' || MyFavGam === 'n') {
+    if (MyFavGam === 'no' || MyFavGam === 'n') {
     // console.log('That\'s correct');
-    alert('That\'s correct');
-    totScore++;
-} else if (MyDegree === 'yes' || MyDegree === 'y'){
+        alert('That\'s correct');
+        totScore++;
+    } else if (MyFavGam === 'yes' || MyFavGam === 'y') {
     // console.log('That\'s wrong');
-    alert('That\'s wrong');
-}else{
-    alert('Please answer using yes/no or y/n only.');
-}
+        alert('That\'s wrong');
+    } else {
+        alert('Please answer using yes/no or y/n only.');
+    }
+
+
+
 
 let FavCar = prompt('Is BMW my fav? Y/N');
 
@@ -46,12 +52,13 @@ if (FavCar === 'no' || FavCar === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else if (MyDegree === 'yes' || MyDegree === 'y'){
+} else if (MyDegree === 'yes' || MyDegree === 'y') {
     // console.log('That\'s wrong');
     alert('That\'s wrong');
-}else{
+} else {
     alert('Please answer using yes/no or y/n only.');
 }
+
 
 let YearBorn = prompt('Am I born in 1994? Y/N');
 
@@ -61,10 +68,10 @@ if (YearBorn === 'yes' || YearBorn === 'y') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else if (MyDegree === 'no' || MyDegree === 'n'){
+} else if (MyDegree === 'no' || MyDegree === 'n') {
     // console.log('That\'s wrong');
     alert('That\'s wrong');
-}else{
+} else {
     alert('Please answer using yes/no or y/n only.');
 }
 
@@ -76,10 +83,10 @@ if (Exp === 'no' || Exp === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else if (MyDegree === 'yes' || MyDegree === 'y'){
+} else if (MyDegree === 'yes' || MyDegree === 'y') {
     // console.log('That\'s wrong');
     alert('That\'s wrong');
-}else{
+} else {
     alert('Please answer using yes/no or y/n only.');
 }
 
