@@ -117,7 +117,7 @@ let GamArray = ['GTA V', 'Minecraft', 'Red Dead Redemption 2', 'The Legend of Ze
 
 Try: for (let i = 0; i < 6; i++) {
     let guessGam = prompt('Try to guess one of my favorite Games');
-    for (let x = 0; x < 10; x++) {
+    for (let x = 0; x < GamArray.length; x++) {
         if (guessGam == GamArray[x]) {
             alert('Good job you have guessed it. Correct answers were: (GTA V, Minecraft, Red Dead Redemption 2, The Legend of Zelda: Breath of the Wild, The Elder Scrolls V: Skyrim, The Last of Us, Portal 2, The Witcher 3: Wild Hunt)');
             // console.log(GamArray[x]);
