@@ -110,6 +110,7 @@ As a user, I would like to be guided to an answer through a series of feedback r
     * It should give the user exactly four opportunities to get the correct answer.
     * After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 */
+function Q6(){
 
 for (let i = 0; i < 4; i++) {
     let num = prompt('Okay, guess a number between 0 and 20');
@@ -133,7 +134,8 @@ for (let i = 0; i < 4; i++) {
         alert('The correct number was 15');
     }
 }
-
+}
+Q6();
 /* As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 
     * Add a 7th question that has multiple possible correct answers that are stored in an array.
@@ -141,7 +143,7 @@ for (let i = 0; i < 4; i++) {
     * The guesses will end once the user guesses a correct answer or they run out of attempts.
     * Display all the possible correct answers to the user.
     * Consider using a loop of some sort for this question.
-*/
+// */
 let GamArray = ['GTA V', 'Minecraft', 'Red Dead Redemption 2', 'The Legend of Zelda: Breath of the Wild', 'The Elder Scrolls V: Skyrim', 'The Last of Us', 'Portal 2', 'The Witcher 3: Wild Hunt'];
 
 Try: for (let i = 0; i < 6; i++) {
