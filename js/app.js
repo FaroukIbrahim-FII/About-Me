@@ -16,9 +16,11 @@ if (MyDegree === 'yes' || MyDegree === 'y') {
     // console.log('That\'s correct');
     alert('That\'s correct');
     totScore++;
-} else {
+} else if (MyDegree === 'no' || MyDegree === 'n'){
     // console.log('That\'s wrong');
     alert('That\'s wrong');
+}else{
+    alert('Please answer using yes/no or y/n only.');
 }
 
 let MyFavGam = prompt('Is my favorite game Minecraft? Y/N');
@@ -29,9 +31,11 @@ if (MyFavGam === 'no' || MyFavGam === 'n') {
     // console.log('That\'s correct');
     alert('That\'s correct');
     totScore++;
-} else {
+} else if (MyDegree === 'yes' || MyDegree === 'y'){
     // console.log('That\'s wrong');
     alert('That\'s wrong');
+}else{
+    alert('Please answer using yes/no or y/n only.');
 }
 
 let FavCar = prompt('Is BMW my fav? Y/N');
@@ -42,9 +46,11 @@ if (FavCar === 'no' || FavCar === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else {
+} else if (MyDegree === 'yes' || MyDegree === 'y'){
     // console.log('That\'s wrong');
     alert('That\'s wrong');
+}else{
+    alert('Please answer using yes/no or y/n only.');
 }
 
 let YearBorn = prompt('Am I born in 1994? Y/N');
@@ -55,9 +61,11 @@ if (YearBorn === 'yes' || YearBorn === 'y') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else {
+} else if (MyDegree === 'no' || MyDegree === 'n'){
     // console.log('That\'s wrong');
     alert('That\'s wrong');
+}else{
+    alert('Please answer using yes/no or y/n only.');
 }
 
 let Exp = prompt('Have I worked as a civil Engineer for 7 years? Y/N');
@@ -68,9 +76,11 @@ if (Exp === 'no' || Exp === 'n') {
     // console.log('That\'s correct favorite car manufacturer');
     alert('That\'s correct');
     totScore++;
-} else {
+} else if (MyDegree === 'yes' || MyDegree === 'y'){
     // console.log('That\'s wrong');
     alert('That\'s wrong');
+}else{
+    alert('Please answer using yes/no or y/n only.');
 }
 
 /*
